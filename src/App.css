@@ -1,0 +1,117 @@
+/* .header.logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 28px 16px 0;
+  float: left;
+}
+
+.site-layout-background {
+  background: #fff;
+} */
+body {
+  background: #f0f2f5 !important;
+}
+.logo {
+  color: #ffe300;
+  color: #ffe300;
+  margin-right: 45px;
+}
+header.ant-layout-header.header {
+  display: flex;
+  font-size: 28px;
+  font-weight: 600;
+}
+ul.ant-menu.logout-panel.ant-menu-dark.ant-menu-root.ant-menu-horizontal {
+  /* margin-left: 68%; */
+  position: absolute;
+  left: 90%;
+}
+button.btn-login {
+  /* border-radius: 0%; */
+  height: 46px;
+  font-size: 19px;
+  font-weight: 400;
+  background: #021528;
+  color: white;
+}
+span.lgn-input-field.ant-input-affix-wrapper.ant-input-affix-wrapper-lg {
+  margin-top: 15px;
+}
+.login-btn-wrapper {
+  flex-direction: column;
+  display: flex;
+}
+.validation-error {
+  color: red;
+}
+.site-page-header {
+  /* border: none; */
+  background: white !important;
+
+  /* color:white !important */
+}
+.card-heading {
+  text-align: center;
+  font-size: 4em;
+  margin-top: 15%;
+}
+span.register-link {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 12px;
+}
+.login-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.login-btn-wrapper {
+  margin-top: 17px;
+}
+.login-wrapper {
+  width: 25%;
+}
+.detail-inner {
+  padding: 10px;
+  /* padding-left: 4px; */
+  /* color: black; */
+}
+ul.card-list-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-right: 40px;
+  /* text-align: center; */
+}
+
+.card-wrapper {
+  /* display: flex; */
+  /* flex-direction: column; */
+  width: 22%;
+  background: white;
+  /* padding: 10px; */
+  margin-left: 14px;
+  margin-top: 10px;
+  text-align: center;
+  padding: 24px;
+}
+
+ul.card-detail-wrapper {
+  list-style: none;
+  /* color: #0000ffa6; */
+}
+
+li.card-list.invert {
+  padding-left: 48px;
+  text-decoration: underline;
+  cursor: pointer;
+  color: blue;
+}
+
+li.card-list {
+  cursor: pointer;
+}
+.detail-inner > lable {
+  color: black;
+}
